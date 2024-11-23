@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dynamic Website</title>
+	<script src="app.js" defer></script>
+</head>
+
+<body>
+	<h1>Dynamic Item List</h1>
+	<p>Enter an item and click "Add Item" to add it to the list:</p>
+
+	<form id="itemForm">
+		<label for="itemInput">Item:</label>
+		<input type="text" id="itemInput" name="item" required>
+		<button type="submit">Add Item</button>
+	</form>
+
+	<h2>Items:</h2>
+	<ul id="itemList"></ul>
+</body>
+
+</html>
